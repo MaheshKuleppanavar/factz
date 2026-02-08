@@ -7,7 +7,7 @@ export default function Facts(){
 
     const getFacts = async () => {
     try {
-        const response = await fetch('http://localhost:5000/api/facts');
+        const response = await fetch('https://factz-backend.onrender.com/api/facts');
         const data = await response.json();   
         setFacts(data);
     } 
