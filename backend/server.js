@@ -15,6 +15,11 @@ app.get('/api/facts',(req,res)=>{
     res.json(facts);
 });
 
+
+app.use((req,res)=>{
+  res.send(`<h2 style='color:red;text-align:center'>Page not found</h2>`);
+});
+
 const PORT = process.env.PORT||5000;
 console.log(PORT);
 app.listen(PORT,(req,res)=>{
