@@ -83,12 +83,12 @@ Instead of Azure or AWS, I deployed the application using **Render** because:
 * **Backend** deployed on:
 
   ```
-  https://backendurl.onrender.com
+  https://factz-backend.onrender.com/api/facts
   ```
 * **Frontend** deployed on:
 
   ```
-  https://frontendurl.onrender.com
+  https://factz-frontend.onrender.com/
   ```
 
 Both frontend and backend are publicly accessible and working together.
