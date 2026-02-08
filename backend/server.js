@@ -16,7 +16,7 @@ app.get('/api/facts',(req,res)=>{
 });
 
 app.use((req,res)=>{
-  res.send(`Page not found`);
+  res.send(`<h2 style='color:red'>Page not found</h2>`);
 });
 
 const PORT = process.env.PORT||5000;
